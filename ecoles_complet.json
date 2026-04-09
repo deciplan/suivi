@@ -62,7 +62,7 @@
     "lien": "https://www.um6p.ma/isti",
     "modalite": "Sélection + concours",
     "concours": null,
-    "note": "Génie Chimique, Minéralogie et Biotechnologie. Bac scientifique requis. Université Mohammed VI Polytechnique."
+    "note": "Génie Chimique, Minéralogie et Biotechnologie."
   },
   {
     "nom": "UM6P — SAP+D (Architecture & Design)",
@@ -75,7 +75,7 @@
     "lien": "https://www.um6p.ma/sapd",
     "modalite": "Sélection + concours",
     "concours": "09 Mai 2026",
-    "note": "Architecture, urbanisme, design. Dossier + portfolio artistique. Université Mohammed VI Polytechnique."
+    "note": "Architecture, urbanisme, design. Dossier + portfolio artistique."
   },
   {
     "nom": "UM6P — SASE (Applied Sciences & Business)",
@@ -88,7 +88,7 @@
     "lien": "https://www.um6p.ma/sase",
     "modalite": "Sélection + concours",
     "concours": null,
-    "note": "Sciences appliquées et business. Pôle Science & Technologie UM6P. Université Mohammed VI Polytechnique."
+    "note": "Sciences appliquées et business. Pôle Science & Technologie UM6P."
   },
   {
     "nom": "UM6P — SHBM (Hospitality Business & Management)",
@@ -100,8 +100,8 @@
     "clo": "2026-04-20",
     "lien": "https://www.um6p.ma/shbm",
     "modalite": "Sélection + concours",
-    "concours": "26 Avril 2026 (en ligne)",
-    "note": "Hôtellerie, management, restauration. Toutes séries bac. Entretien de motivation. Université Mohammed VI Polytechnique."
+    "concours": "25 Avril 2026 (en ligne)",
+    "note": "Hôtellerie, management, restauration. Toutes séries bac."
   },
   {
     "nom": "UM6P — FGSES (Économie, Sciences Politiques & Relations Internationales)",
@@ -112,7 +112,7 @@
     "ouv": null,
     "clo": "2026-03-15",
     "lien": "https://www.um6p.ma/fgses",
-    "modalite": "Sélection + concours",
+    "modalite": "Épreuve Orale",
     "concours": "11-12-18-19 Avril 2026",
     "note": "Économie, Sciences Politiques, Relations Internationales. Toutes séries bac. Dossier + entretien oral."
   },
@@ -157,7 +157,7 @@
     "lien": "https://recrutement.far.ma",
     "modalite": "Sélection + écrit + tests médicaux + phys.",
     "concours": null,
-    "note": "Bac Maths/SVT/PC. Âge 18-22 ans. Sélection + test médical + tests physiques."
+    "note": "Bac SM/SVT/PC. Âge 18-22 ans. Sélection + test médical + tests physiques."
   },
  {
   "nom": "Forces Auxiliaires — Officiers",
@@ -167,8 +167,8 @@
   "clo": "2026-05-29",
   "lien": "https://recrutement.fa.gov.ma",
   "modalite": "Sélection + tests médicaux + phys.",
-  "concours": "Mai 2026",
-  "note": "Bac toutes séries. Âge 18-22 ans. Via recrutement.fa.gov.ma"
+  "concours": null,
+  "note": "Bac toutes séries. Âge 18-22 ans."
 },
 {
   "nom": "Gendarmerie Royale — Élève Gendarme",
@@ -178,7 +178,7 @@
   "clo": "2026-04-15",
   "lien": "https://recrutement.gr.ma",
   "modalite": "Sélection + écrit + aptit. phys. + médical",
-  "concours": "Avril 2026",
-  "note": "Bac toutes séries. Âge 18-24 ans, célibataire. Écrits + tests physiques + médical + oral. Centres : Rabat, Casa, Fès, Marrakech, Oujda, Agadir, Tanger, Meknès..."
+  "concours": null,
+  "note": "Bac toutes séries. Âge 18-24 ans, célibataire."
 }
 ]
