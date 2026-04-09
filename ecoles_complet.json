@@ -169,5 +169,16 @@
   "modalite": "Sélection + tests médicaux + phys.",
   "concours": "Mai 2026",
   "note": "Bac toutes séries. Âge 18-22 ans. Via recrutement.fa.gov.ma"
+},
+{
+  "nom": "Gendarmerie Royale — Élève Gendarme",
+  "cat": "Militaire",
+  "villes": ["Plusieurs centres nationaux"],
+  "ouv": "2026-03-25",
+  "clo": "2026-04-15",
+  "lien": "https://recrutement.gr.ma",
+  "modalite": "Sélection + écrit + aptit. phys. + médical",
+  "concours": "Avril 2026",
+  "note": "Bac toutes séries. Âge 18-24 ans, célibataire. Écrits + tests physiques + médical + oral. Centres : Rabat, Casa, Fès, Marrakech, Oujda, Agadir, Tanger, Meknès..."
 }
 ]
