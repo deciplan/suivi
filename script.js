@@ -31,7 +31,7 @@ function getStatus(r) {
   if (clo && TODAY > clo) return 'ferme';
   if (ouv && TODAY < ouv) return 'attente';
   const dl = daysLeft(r);
-  return (dl !== null && dl <= 7) ? 'bientot' : 'ouvert';
+  return (dl !== null && dl <= 10) ? 'bientot' : 'ouvert';
 }
 
 /* ── Villes ── */
@@ -157,7 +157,7 @@ function render() {
       if      (days < 0)   cd = '<span class="countdown expired">Expiré</span>';
       else if (days === 0) cd = '<span class="countdown urgent">Aujourd\'hui !</span>';
       else if (days <= 5)  cd = `<span class="countdown urgent">${days} j</span>`;
-      else if (days <= 7) cd = `<span class="countdown warning">${days} j</span>`;
+      else if (days <= 10) cd = `<span class="countdown warning">${days} j</span>`;
       else                 cd = `<span class="countdown ok">${days} j</span>`;
     }
     const col6 = `<td class="col-delai">${cd}</td>`;
