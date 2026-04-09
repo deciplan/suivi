@@ -180,5 +180,16 @@
   "modalite": "Sélection + écrit + aptit. phys. + médical",
   "concours": null,
   "note": "Bac toutes séries. Âge 18-24 ans, célibataire."
+},
+  {
+  "nom": "ESBA - École supérieure des beaux arts",
+  "cat": "Art & Design",
+  "villes": ["Casablanca"],
+  "ouv": null,
+  "clo": "2026-05-31",
+  "lien": "Pas de site officiel",
+  "modalite": "Écrit + Oral",
+  "concours": "Septembre",
+  "note": "Envoi du dossier d'inscription par voie postale"
 }
 ]
