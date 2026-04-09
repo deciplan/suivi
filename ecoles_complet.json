@@ -8,12 +8,12 @@
     "ouv": null,
     "clo": "2026-06-24",
     "lien": "https://www.um6p.ma/fms",
-    "modalite": "Sélection sur dossier",
+    "modalite": "Sélection + concours",
     "concours": null,
-    "note": "Médecine, Pharmacie, Soins Infirmiers, Kinésithérapie. Université Mohammed VI Polytechnique. Dossier en ligne sur le site UM6P."
+    "note": "Médecine, Pharmacie, Soins Infirmiers, Kinésithérapie"
   },
   {
-    "nom": "UM6P — EMINES (École Mines & Énergie)",
+    "nom": "UM6P — EMINES (School of industrial management)",
     "cat": "Ingénierie",
     "villes": [
       "Benguerir"
@@ -21,9 +21,9 @@
     "ouv": null,
     "clo": "2026-06-01",
     "lien": "https://www.emines-ingenieur.org",
-    "modalite": "Sélection sur dossier",
+    "modalite": "Sélection + concours",
     "concours": null,
-    "note": "Sciences & Technologie. Génie des mines, énergie, matériaux. Université Mohammed VI Polytechnique."
+    "note": "Sciences & Technologie. Génie des mines, énergie, matériaux."
   },
   {
     "nom": "UM6P — Computer Sciences",
@@ -34,9 +34,9 @@
     "ouv": null,
     "clo": "2026-06-24",
     "lien": "https://www.um6p.ma/cs",
-    "modalite": "Sélection sur dossier",
+    "modalite": "Concours",
     "concours": null,
-    "note": "Informatique, Intelligence Artificielle, Data Science. Bac Maths/PC/Tech. Université Mohammed VI Polytechnique."
+    "note": "Informatique, Intelligence Artificielle, Data Science"
   },
   {
     "nom": "UM6P — Systèmes Agri-Environnementaux",
@@ -47,9 +47,9 @@
     "ouv": null,
     "clo": "2026-06-24",
     "lien": "https://www.um6p.ma/agri",
-    "modalite": "Sélection sur dossier",
+    "modalite": "Sélection + concours",
     "concours": null,
-    "note": "Agronomie, environnement, systèmes agricoles durables. Université Mohammed VI Polytechnique."
+    "note": "Agronomie, environnement, systèmes agricoles durables"
   },
   {
     "nom": "UM6P — IST&I (Génie Chimique, Minéralogie & Biotechnologie)",
