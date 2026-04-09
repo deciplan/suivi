@@ -31,7 +31,7 @@ function getStatus(r) {
   if (clo && TODAY > clo) return 'ferme';
   if (ouv && TODAY < ouv) return 'attente';
   const dl = daysLeft(r);
-  return (dl !== null && dl <= 14) ? 'bientot' : 'ouvert';
+  return (dl !== null && dl <= 7) ? 'bientot' : 'ouvert';
 }
 
 /* ── Villes ── */
