@@ -110,7 +110,7 @@
   {
     "nom": "FMP / FMD — Facultés Médecine, Pharmacie & Odontologie",
     "cat": "Médecine & Santé",
-    "villes": ["Rabat", "Casablanca", "Fès", "Marrakech", "Oujda", "Tanger", "Agadir", "Béni Mellal"],
+    "villes": ["Plusieurs villes"],
     "ouv": null,
     "clo": null,
     "lien": "https://www.cursussup.gov.ma",
@@ -122,7 +122,7 @@
   {
     "nom": "ENCG — Écoles Nationales de Commerce et Gestion",
     "cat": "Commerce & Gestion",
-    "villes": "Plusieurs villes",
+    "villes": ["Plusieurs villes"],
     "ouv": null,
     "clo": null,
     "lien": "https://www.cursussup.gov.ma",
@@ -152,13 +152,13 @@
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + écrit",
     "concours": null,
-    "avis": null
+    "avis": null,
     "note": "Bac Maths/PC/Tech. Sélection (25% régional + 75% national). 3 villes."
   },
   {
     "nom": "EST — Écoles Supérieures de Technologie",
     "cat": "Technologie",
-    "villes": "plusieurs villes",
+    "villes": ["Plusieurs villes"],
     "ouv": null,
     "clo": null,
     "lien": "https://www.cursussup.gov.ma",
