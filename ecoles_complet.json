@@ -114,22 +114,22 @@
     "ouv": null,
     "clo": null,
     "lien": "https://www.cursussup.gov.ma",
-    "modalite": "Sélection + écrit (Bio, PC, Chimie, Maths)",
-    "concours": "En attente",
+    "modalite": "Sélection + écrit",
+    "concours": null,
     "avis": null,
-    "note": "Bac Maths/SVT/PC. 75% national + 25% régional. Concours commun. Dates à confirmer."
+    "note": "Bac SM/SVT/PC. Sélection (25% régional + 75% national)."
   },
   {
     "nom": "ENCG — Écoles Nationales de Commerce et Gestion",
     "cat": "Commerce & Gestion",
-    "villes": ["Casablanca", "Agadir", "Fès", "Oujda", "Marrakech", "Tanger", "Séttat", "El Jadida", "Béni Mellal", "Meknès", "Dakhla"],
+    "villes": "Plusieurs villes",
     "ouv": null,
     "clo": null,
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + écrit (TAFEM)",
-    "concours": "En attente",
+    "concours": null,
     "avis": null,
-    "note": "Toutes séries bac. 75% national + 25% régional. Test TAFEM. 11 villes. Dates à confirmer."
+    "note": "Toutes séries bac. Sélection(25% régional + 75% national). Test TAFEM. 11 villes. Dates à confirmer."
   },
   {
     "nom": "ENSA — Écoles Nationales des Sciences Appliquées",
@@ -139,9 +139,9 @@
     "clo": null,
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + écrit (CNC)",
-    "concours": "En attente",
+    "concours": null,
     "avis": null,
-    "note": "Bac Maths/PC/Tech. 75% national + 25% régional. Accès S3 via CNC. 14 villes. Dates à confirmer."
+    "note": "Bac Maths/PC/Tech. Sélection (25% régional + 75% national). 14 villes."
   },
   {
     "nom": "ENSAM — Écoles Nationales Supérieures des Arts et Métiers",
@@ -150,22 +150,22 @@
     "ouv": null,
     "clo": null,
     "lien": "https://www.cursussup.gov.ma",
-    "modalite": "Sélection + écrit (CNC)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac Maths/PC/Tech. Génie mécanique, électrique, industriel, IA. 3 villes. Dates à confirmer."
+    "modalite": "Sélection + écrit",
+    "concours": null,
+    "avis": null
+    "note": "Bac Maths/PC/Tech. Sélection (25% régional + 75% national). 3 villes."
   },
   {
     "nom": "EST — Écoles Supérieures de Technologie",
     "cat": "Technologie",
-    "villes": ["Casablanca", "Fès", "Salé", "Meknès", "Agadir", "Safi", "El Jadida", "Kénitra", "Oujda", "Béni Mellal", "Laâyoune", "Dakhla", "Al Hoceima", "Tétouan", "Nador", "Guelmim"],
+    "villes": "plusieurs villes",
     "ouv": null,
     "clo": null,
     "lien": "https://www.cursussup.gov.ma",
-    "modalite": "Sélection sur dossier bac",
-    "concours": "En attente",
+    "modalite": "Sélection",
+    "concours": null,
     "avis": null,
-    "note": "Bac scientifique ou équivalent. DUT 2 ans. 16 villes. Dates à confirmer."
+    "note": "Sélection (25% rég+75% national).DUT 2 ans. 16 villes."
   },
   {
     "nom": "FAR — Forces Armées Royales : Officiers (ARM, ERA, ERN)",
@@ -200,8 +200,8 @@
     "lien": "https://recrutement.far.ma",
     "modalite": "Sélection + écrit + tests médicaux + phys.",
     "concours": null,
-    "avis": "avis/ESBA_2026.pdf",
-    "note": "Bac SM/SVT/PC. Âge 18-22 ans. Sélection + test médical + tests physiques."
+    "avis": null,
+    "note": "Bac SM/SVT/PC. Âge 18-22 ans."
   },
   {
     "nom": "Forces Auxiliaires — Officiers",
