@@ -84,7 +84,7 @@ function initCountdownBac(){
   var banner=document.getElementById('bacBanner');
   if(!el) return;
   if(diff>0){
-    el.textContent='Le Bac dans '+diff+' jours — Dépêchez-vous !';
+    el.textContent='Le Bac dans '+diff+' jours — 04-05-06 Juin 2026 !';
     if(diff<=30&&banner) banner.classList.add('urgent');
   } else if(diff===0){
     el.textContent='Le Bac commence aujourd\'hui — Bon courage !';
