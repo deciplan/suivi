@@ -302,11 +302,39 @@
       "Casablanca"
     ],
     "ouv": null,
-    "clo": "2026-07-16",
+    "clo": "2026-07-16 à 12h00",
     "lien": "https://www.ifmia-sa.ma",
     "modalite": "Présélection sur dossier + concours écrit",
     "concours": "21 et 22 Juillet 2026",
     "avis": "avis/ifmia-casa-ts.png",
-    "note": "4 filières : Génie Mécanique · Systèmes Automatisés · Maintenance Automobile · Électromécanique. Résultats présélection : 17/07. Bac scientifique/technique. Email : inscription@ifmia-sa.ma"
+    "note": "4 filières : Génie Mécanique · Systèmes Automatisés · Maintenance Automobile · Électromécanique. Résultats présélection : 17/07. Bac scientifique/technique."
+  },
+  {
+    "nom": "IFMIA Tanger — Technicien Spécialisé",
+    "cat": "Formation Professionnelle",
+    "villes": [
+      "Tanger"
+    ],
+    "ouv": null,
+    "clo": "2026-07-15 à 17h00",
+    "lien": "https://www.ifmia-sa.ma",
+    "modalite": "Présélection sur dossier + concours écrit",
+    "concours": "22 et 23 Juillet 2026",
+    "avis": "avis/ifmia-tanger-ts.png",
+    "note": "2 filières :Génie Mécanique, Conception et Fabrication.Systèmes Industriels Automatisés. Résultats présélection : 17/07. Bac scientifique/technique."
+  },
+  {
+    "nom": "IFMIA Kénitra — Technicien Spécialisé",
+    "cat": "Formation Professionnelle",
+    "villes": [
+      "Kénitra"
+    ],
+    "ouv": null,
+    "clo": "2026-07-15 à 17h00",
+    "lien": "https://www.ifmia-sa.ma",
+    "modalite": "Présélection sur dossier + concours écrit",
+    "concours": "21 et 22 Juillet 2026",
+    "avis": "avis/ifmia-kenitra-ts.png",
+    "note": "2 filières :Génie Mécanique. Systèmes Industriels Automatisés. Résultats présélection : 17/07(à minuit). Bac scientifique/technique."
   }
 ]
