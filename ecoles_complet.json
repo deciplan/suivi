@@ -242,9 +242,7 @@
   {
     "nom": "IFTL — Institut de Formation aux Métiers du Transport et de la Logistique",
     "cat": "Transport & Logistique",
-    "villes": [
-      "Nouaceur (Casablanca)"
-    ],
+    "villes": ["Nouaceur (Casablanca)"],
     "ouv": null,
     "clo": "2026-06-30",
     "lien": "https://iftl.ma",
@@ -256,9 +254,7 @@
   {
     "nom": "OFPPT — Technicien Spécialisé",
     "cat": "Formation Professionnelle",
-    "villes": [
-      "Plusieurs villes"
-    ],
+    "villes": ["Plusieurs villes"],
     "ouv": "2026-05-06",
     "clo": "2026-07-27",
     "lien": "https://www.myway.ac.ma/fr",
@@ -270,9 +266,7 @@
   {
     "nom": "OFPPT — Technicien (Niveau Bac)",
     "cat": "Formation Professionnelle",
-    "villes": [
-      "Plusieurs villes"
-    ],
+    "villes": ["Plusieurs villes"],
     "ouv": "2026-05-06",
     "clo": "2026-07-07",
     "lien": "https://www.myway.ac.ma/fr",
@@ -284,9 +278,7 @@
   {
     "nom": "OFPPT — Qualification (Niveau 3ème)",
     "cat": "Formation Professionnelle",
-    "villes": [
-      "Plusieurs villes"
-    ],
+    "villes": ["Plusieurs villes"],
     "ouv": "2026-05-06",
     "clo": "2026-06-09",
     "lien": "https://www.myway.ac.ma/fr",
@@ -298,9 +290,7 @@
   {
     "nom": "IFMIA Casablanca — Technicien Spécialisé",
     "cat": "Formation Professionnelle",
-    "villes": [
-      "Casablanca"
-    ],
+    "villes": ["Casablanca"],
     "ouv": null,
     "clo": "2026-07-16",
     "lien": "https://www.ifmia-sa.ma",
@@ -312,9 +302,7 @@
   {
     "nom": "IFMIA Tanger — Technicien Spécialisé",
     "cat": "Formation Professionnelle",
-    "villes": [
-      "Tanger"
-    ],
+    "villes": ["Tanger"],
     "ouv": null,
     "clo": "2026-07-15",
     "lien": "https://www.ifmia-sa.ma",
@@ -326,9 +314,7 @@
   {
     "nom": "IFMIA Kénitra — Technicien Spécialisé",
     "cat": "Formation Professionnelle",
-    "villes": [
-      "Kénitra"
-    ],
+    "villes": ["Kénitra"],
     "ouv": null,
     "clo": "2026-07-15",
     "lien": "https://www.ifmia-sa.ma",
