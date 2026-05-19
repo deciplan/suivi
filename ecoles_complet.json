@@ -322,5 +322,17 @@
     "concours": "21 et 22 Juillet 2026",
     "avis": "avis/ifmia-kenitra-ts.png",
     "note": "2 filières :Génie Mécanique. Systèmes Industriels Automatisés. Résultats présélection : 17/07(à minuit). Bac scientifique/technique."
+  },
+  {
+    "nom": "ISIC- Institut supérieur de l'Information et de la Communication",
+    "cat": "Médias & Communication",
+    "villes": ["Rabat"],
+    "ouv":"2026-05-19",
+    "clo": "2026-06-18",
+    "lien": "https://preinscription.isic.ma",
+    "modalite": "Présélection + concours écrit et oral",
+    "concours": "12 Juillet 2026",
+    "avis": "avis/ISIC.pdf",
+    "note": "Bac toutes séries. au moins 14/20 de moyenne générale du Bac.Consulter l'avis du concours pour plus de détails"
   }
 ]
