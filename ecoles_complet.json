@@ -334,5 +334,17 @@
     "concours": "12 Juillet 2026",
     "avis": "avis/ISIC.pdf",
     "note": "Bac toutes séries. au moins 14/20 de moyenne générale du Bac.Consulter l'avis du concours pour plus de détails"
+  },
+  {
+    "nom": "IFMEREE- Institus de formation aux métiers des énergies renouvelables et de l'efficacité enérgitique",
+    "cat": "Énergies renouvelables",
+    "villes": ["Tanger","Oujda","Ouarzazate"],
+    "ouv":"2026-05-25",
+    "clo": "2026-07-29",
+    "lien": "https://inscription.ifmeree.ac.ma/register",
+    "modalite": "Entretien oral",
+    "concours": "02-11 Septembre 2026",
+    "avis": "avis/IFMEREE.pdf",
+    "note": "Niveau Technicien et Technicien spécialisé. Frais d'inscription: 100 dh.Consulter l'avis du concours pour plus de détails"
   }
 ]
