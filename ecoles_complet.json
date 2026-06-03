@@ -336,7 +336,7 @@
     "note": "Bac toutes séries. au moins 14/20 de moyenne générale du Bac.Consulter l'avis du concours pour plus de détails"
   },
   {
-    "nom": "IFMEREE- Institus de formation aux métiers des énergies renouvelables et de l'efficacité enérgitique",
+    "nom": "IFMEREE- Instituts de formation aux métiers des énergies renouvelables et de l'efficacité enérgitique",
     "cat": "Énergies renouvelables",
     "villes": ["Tanger","Oujda","Ouarzazate"],
     "ouv":"2026-05-25",
@@ -345,6 +345,18 @@
     "modalite": "Entretien oral",
     "concours": "02-11 Septembre 2026",
     "avis": "avis/IFMEREE.pdf",
+    "note": "Niveau Technicien et Technicien spécialisé. Frais d'inscription: 100 dh.Consulter l'avis du concours pour plus de détails"
+  },
+  {
+    "nom": "ISCAE- Institut supérieur de commerce et de l'administration des entreprises",
+    "cat": "Commerce & Gestion",
+    "villes": ["Casablanca"],
+    "ouv":"2026-06-03",
+    "clo": "2026-06-22",
+    "lien": "https://cvip.sphinxonline.net/surveyserver/s/giscaeconc/ConcoursISCAE-LFG26-27/inscriptioniscae.htm#1",
+    "modalite": "concours écrit + oral",
+    "concours": null,
+    "avis": "avis/ISCAE.pdf",
     "note": "Niveau Technicien et Technicien spécialisé. Frais d'inscription: 100 dh.Consulter l'avis du concours pour plus de détails"
   }
 ]
