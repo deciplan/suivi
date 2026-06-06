@@ -358,5 +358,17 @@
     "concours": null,
     "avis": "avis/ISCAE.pdf",
     "note": "Licence en gestion. 500 dh pour passer le concours.sélection sur la base 25% rég + 75% nat.très sélective"
+  },
+  {
+  "nom": "CPGE — Classes Préparatoires aux Grandes Écoles",
+  "cat": "Classes Préparatoires",
+  "villes": ["Plusieurs villes"],
+  "ouv": "2026-06-06",
+  "clo": "2026-06-22",
+  "lien": "https://massarservice.men.gov.ma/moutamadris/Account",
+  "modalite": "Sélection sur dossier",
+  "concours": null,
+  "avis": "avis/CPGE.pdf",
+  "note": "Filières : MPSI, PCSI, TSI,ECS, ECT. 2 ans → accès grandes écoles (EMI,EHTP,ENSA, ENSAM, ENCG…).Consulter l'avis du concours pour plus de détails"
   }
 ]
