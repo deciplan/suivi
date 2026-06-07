@@ -370,5 +370,17 @@
   "concours": null,
   "avis": "avis/CPGE.pdf",
   "note": "Filières : MPSI, PCSI, TSI,ECS, ECT. 2 ans → accès grandes écoles (EMI,EHTP,ENSA, ENSAM, ENCG…).Consulter l'avis du concours pour plus de détails"
-  }
+  },
+  {
+  "nom": "IFMBTP Fès — Technicien Spécialisé (Bâtiment & Travaux Publics)",
+  "cat": "Formation Professionnelle",
+  "villes": ["Fès"],
+  "ouv": null,
+  "clo": "2026-07-31",
+  "lien": "https://ifmbtp.ma/fr/candidature-et-inscription",
+  "modalite": "Sélection sur dossier + entretien oral",
+  "concours": "Entretien oral",
+  "avis": null,
+  "note": "6 filières : Métreur · Labo BTP · Méthodes BTP · Menuiserie Alu/Inox · Électricité & Domotique · Géomètre-Topographe. Formation 2 ans GRATUITE. Frais dossier : 150 DH (virement Attijariwafa). Bac scientifique requis. Âge max 30 ans.Conculter le site officiel pour plus de détails"
+}
 ]
