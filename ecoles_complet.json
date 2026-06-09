@@ -382,5 +382,29 @@
   "concours": "Entretien oral",
   "avis": null,
   "note": "6 filières : Métreur · Labo BTP · Méthodes BTP · Menuiserie Alu/Inox · Électricité & Domotique · Géomètre-Topographe. Formation 2 ans GRATUITE. Frais dossier : 150 DH (virement Attijariwafa). Bac scientifique requis. Âge max 30 ans.Conculter le site officiel pour plus de détails"
+},
+{
+    "nom": "IMM — Institut des Mines de Marrakech",
+    "cat": "Formation Professionnelle",
+    "villes": ["Marrakech"],
+    "ouv": null,
+    "clo": "2026-07-14",
+    "lien": "https://www.emm.ac.ma",
+    "modalite": "Sélection sur dossier",
+    "concours": "Juillet 2026",
+    "avis":"avis/IMM.pdf",
+    "note": "Bac (Sc-Exp., SM, STE, STM, Tech) ou Bac pro. Âge ≤30 ans (au 31/07/2026). 88 places (22/filière) : Géologie appliquée, Exploitation des mines, Chimie industrielle, Électromécanique. Formation 2 ans → Technicien spécialisé. Passerelle (10% des places) pour titulaires diplôme technicien."
+},
+{
+    "nom": "INSAP — Institut National des Sciences de l'Archéologie et du Patrimoine",
+    "cat": "Patrimoine & Archéologie",
+    "villes": ["Rabat"],
+    "ouv": "2026-06-10",
+    "clo": "2026-07-15",
+    "lien": "http://concoursinsap.minculture.gov.ma",
+    "modalite": "Préinscription + concours",
+    "concours": "Dimanche 26 juillet 2026 (8h30)",
+    "avis":"avis/INSAP.pdf",
+    "note": "Concours d'accès au cycle fondamental. Préinscription en ligne du 10/06 au 15/07/2026. Liste des sélectionnés affichée le 20/07/2026 sur insap.ac.ma et page Facebook INSAP. L'avis fait office de convocation. Préinscription logement sur logement.onousc.ma. Fausses déclarations = exclusion directe. Via concoursinsap.minculture.gov.ma"
 }
 ]
