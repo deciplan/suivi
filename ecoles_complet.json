@@ -582,11 +582,11 @@
     "villes": [
       "Meknès"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://concours.enameknes.net",
-    "modalite": "Sélection + concours (APESA)",
-    "concours": "En attente",
+    "ouv": "2026-06-12",
+    "clo": "2026-07-15",
+    "lien": "https://concours.enameknes.net/portal/auth/login",
+    "modalite": "Sélection + concours",
+    "concours": "23/07/2026",
     "avis": null,
     "note": "Bac scientifique. Année préparatoire APESA → ingénieur agronome. Site : www.enameknes.ac.ma. Dates à confirmer."
   },
@@ -599,7 +599,7 @@
     "ouv": null,
     "clo": null,
     "lien": "https://www.enfi.ac.ma",
-    "modalite": "Sélection + concours (APESA)",
+    "modalite": "Sélection + concours",
     "concours": "En attente",
     "avis": null,
     "note": "Bac scientifique. Tronc commun APESA → ingénieur eaux et forêts. Dates à confirmer."
@@ -652,7 +652,7 @@
     "note": "Urbanisme et aménagement du territoire. Inscription en ligne sur le site de l'institut. Dates à confirmer."
   },
   {
-    "nom": "ENSC — École Nationale Supérieure de Chimie (Kénitra)",
+    "nom": "ENSCK — École Nationale Supérieure de Chimie (Kénitra)",
     "cat": "Ingénierie",
     "villes": [
       "Kénitra"
@@ -694,34 +694,6 @@
     "note": "Université Ibn Zohr. Accès post-CPGE ou DEUG/DUT/DEUST. Big Data & IA, cybersécurité, ingénierie logicielle. Dates à confirmer."
   },
   {
-    "nom": "CNC — Concours National Commun (Grandes Écoles d'Ingénieurs)",
-    "cat": "Ingénierie",
-    "villes": [
-      "Plusieurs villes"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.cncmaroc.ma",
-    "modalite": "Concours écrit + oral (post-CPGE)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Accès après 2 ans de CPGE (MP, PSI, TSI). Écoles : EMI, EHTP, INPT, ENSIAS, INSEA, ENSMR, ENSEM, IAV, AIAC, ENSAM… Dates à confirmer."
-  },
-  {
-    "nom": "CNAEM — Concours National d'Accès aux Écoles de Management",
-    "cat": "Commerce & Gestion",
-    "villes": [
-      "Plusieurs villes"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "http://www.esca.ma/cnaem",
-    "modalite": "Concours écrit + oral (post-CPGE)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Accès après CPGE ECS/ECT. Écoles participantes : ISCAE et ENCG. Dates à confirmer."
-  },
-  {
     "nom": "FST — Facultés des Sciences et Techniques",
     "cat": "Science & Technologie",
     "villes": [
@@ -741,34 +713,6 @@
     "concours": "En attente",
     "avis": null,
     "note": "Bac scientifique/technique. Accès régulé : MIP, BCG, GE-GM → licence ST puis cycle ingénieur/master. Candidature via le site de chaque FST. Dates à confirmer."
-  },
-  {
-    "nom": "ESI — École des Sciences de l'Information",
-    "cat": "Médias & Communication",
-    "villes": [
-      "Rabat"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.esi.ac.ma",
-    "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac scientifique ou économique. Ingénierie de l'information, data science, documentation, veille stratégique. Dates à confirmer."
-  },
-  {
-    "nom": "ESRFT — École Supérieure Roi Fahd de Traduction",
-    "cat": "Médias & Communication",
-    "villes": [
-      "Tanger"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://concours.esrft.ma",
-    "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Accès post-licence (Bac+3) : traduction arabe/français/anglais/espagnol. Dates à confirmer."
   },
   {
     "nom": "ISITT — Institut Supérieur International du Tourisme de Tanger",
@@ -799,20 +743,6 @@
     "concours": "En attente",
     "avis": null,
     "note": "Technicien spécialisé en hôtellerie, tourisme et arts culinaires. Ouarzazate : concours-ouarzazate.istaht.academy. Dates à confirmer."
-  },
-  {
-    "nom": "ISEM — Institut Supérieur d'Études Maritimes",
-    "cat": "Transport & Logistique",
-    "villes": [
-      "Casablanca"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.concours.isem.ma",
-    "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac scientifique/technique. Marine marchande : capitaine au long cours, officier mécanicien. Aptitude physique exigée. Site : isem.ac.ma. Dates à confirmer."
   },
   {
     "nom": "ISPM — Institut Supérieur des Pêches Maritimes",
@@ -853,7 +783,7 @@
     ],
     "ouv": null,
     "clo": null,
-    "lien": "https://www.ensad.ma",
+    "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + concours",
     "concours": "En attente",
     "avis": null,
@@ -863,15 +793,15 @@
     "nom": "INBA — Institut National des Beaux-Arts",
     "cat": "Art & Design",
     "villes": [
-      "Tétouan"
+      "Tétouan","Agadir","Rabat","Oujda"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "http://www.inbatetouan.com",
-    "modalite": "Sélection + concours (épreuve artistique)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac toutes séries. Arts plastiques, design, bande dessinée. Dates à confirmer."
+    "ouv": "2026-06-12",
+    "clo": "2026-07-14",
+    "lien": "Envoi du dossier par poste",
+    "modalite": "Sélection + concours écrit + oral",
+    "concours": "16-17-18 Juillet 2026",
+    "avis": "avis/INBA.pdf",
+    "note": "Bac toutes séries. Arts plastiques, design, bande dessinée. Conculter l'avis du concours pour plus de détails."
   },
   {
     "nom": "ISMAC — Institut Supérieur des Métiers de l'Audiovisuel et du Cinéma",
@@ -973,20 +903,6 @@
     "note": "Université Ibn Tofail. Métiers du sport : management, encadrement, entraînement. Dates à confirmer."
   },
   {
-    "nom": "CLE — Cycle de Licence en Éducation (dont spécialité EPS)",
-    "cat": "Éducation & Enseignement",
-    "villes": [
-      "Plusieurs villes"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": null,
-    "modalite": "Sélection sur dossier + entretien",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac toutes séries selon filière (âge ≤ 21 ans pour EPS). Licence en éducation : primaire, secondaire (maths, SVT, PC, langues, EPS). Candidature via ESEF/ENS/FSE hébergeant la filière. Dates à confirmer."
-  },
-  {
     "nom": "ESEF — Écoles Supérieures de l'Éducation et de la Formation",
     "cat": "Éducation & Enseignement",
     "villes": [
@@ -999,7 +915,7 @@
     ],
     "ouv": null,
     "clo": null,
-    "lien": "https://esef.uit.ac.ma",
+    "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection sur dossier",
     "concours": "En attente",
     "avis": null,
@@ -1018,7 +934,7 @@
     ],
     "ouv": null,
     "clo": null,
-    "lien": "https://www.ens.um5.ac.ma",
+    "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + concours",
     "concours": "En attente",
     "avis": null,
@@ -1039,91 +955,6 @@
     "note": "Université Mohammed V. Licence en éducation, psychologie, sciences de l'éducation. Dates à confirmer."
   },
   {
-    "nom": "CRMEF — Centres Régionaux des Métiers de l'Éducation et de la Formation",
-    "cat": "Éducation & Enseignement",
-    "villes": [
-      "Plusieurs villes"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "http://tawdif.men.gov.ma",
-    "modalite": "Concours (post-licence)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Accès Bac+3 (licence) : concours de recrutement des enseignants cadres des AREF. Dates à confirmer."
-  },
-  {
-    "nom": "ENSET — École Normale Supérieure de l'Enseignement Technique (Mohammedia)",
-    "cat": "Éducation & Enseignement",
-    "villes": [
-      "Mohammedia"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.enset-media.ac.ma",
-    "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Filières universitaires d'éducation (FUE) + licences et cycles technologiques. Préinscription : entissab.univh2c.ma/precandenset. Dates à confirmer."
-  },
-  {
-    "nom": "DGSN — Police : Institut Royal de Police",
-    "cat": "Militaire",
-    "villes": [
-      "Kénitra"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://concours.dgsn.gov.ma",
-    "modalite": "Sélection + écrit + aptit. phys. + médical",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Gardien de la paix (niveau Bac), inspecteur (Bac+2/+3), officier (licence). Conditions d'âge selon grade. Dates à confirmer."
-  },
-  {
-    "nom": "ENPC — École Nationale de la Protection Civile",
-    "cat": "Militaire",
-    "villes": [
-      "Plusieurs centres"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://recrutement.protectioncivile.ma",
-    "modalite": "Sélection + écrit + aptit. phys. + médical",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac toutes séries selon grade. Officiers et sous-officiers de la protection civile. Dates à confirmer."
-  },
-  {
-    "nom": "DGAPR — Administration Pénitentiaire (Cadres et Surveillants)",
-    "cat": "Militaire",
-    "villes": [
-      "Tiflet",
-      "Ifrane"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.dgapr.gov.ma",
-    "modalite": "Sélection + écrit + sport + oral",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Niveau Bac et plus selon grade. Centre National de Formation des Cadres de la DGAPR. Dates à confirmer."
-  },
-  {
-    "nom": "IRAT — Institut Royal de l'Administration Territoriale",
-    "cat": "Militaire",
-    "villes": [
-      "Kénitra"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "http://concours.interieur.gov.ma",
-    "modalite": "Concours (post-licence)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Accès Bac+3 : formation des caïds et cadres de l'administration territoriale (Ministère de l'Intérieur). Dates à confirmer."
-  },
-  {
     "nom": "BTS — Brevet de Technicien Supérieur",
     "cat": "Technologie",
     "villes": [
@@ -1137,18 +968,4 @@
     "avis": null,
     "note": "Bac toutes séries selon spécialité. 2 ans post-bac en lycées publics : informatique, électrotechnique, comptabilité, tourisme, audiovisuel… Dates à confirmer."
   },
-  {
-    "nom": "Universités — Établissements à Accès Ouvert (FS, FSJES, FLSH, FP, Charia)",
-    "cat": "Université — Accès Ouvert",
-    "villes": [
-      "Toutes les villes universitaires"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": null,
-    "modalite": "Inscription directe (sans concours)",
-    "concours": null,
-    "avis": null,
-    "note": "Bac toutes séries. Facultés des sciences, droit/économie, lettres, polydisciplinaires, sciences de la Charia. Inscription en ligne sur le site de chaque université après le Bac."
-  }
 ]
