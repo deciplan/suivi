@@ -568,13 +568,13 @@
     "villes": [
       "Rabat"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://fpa-concours.agriculture.gov.ma",
+    "ouv": "2026-06-13",
+    "clo": "2026-07-13",
+    "lien": "https://apesa.iav.ac.ma",
     "modalite": "Sélection + concours (APESA)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac scientifique. Année préparatoire APESA commune (IAV/ENAM/ENFI) → ingénieur agronome, vétérinaire, topographie. Site : www.iav.ac.ma. Dates à confirmer."
+    "concours": "2026-07-19",
+    "avis": "avis/IAV.pdf",
+    "note": "Bac scientifique. quotas par académie et par filière de BAC → ingénieur agronome, vétérinaire, topographie."
   },
   {
     "nom": "ENAM — École Nationale d'Agriculture de Meknès",
@@ -587,7 +587,7 @@
     "lien": "https://concours.enameknes.net/portal/auth/login",
     "modalite": "Sélection + concours",
     "concours": "23/07/2026",
-    "avis": null,
+    "avis": "avis/ENAM.pdf",
     "note": "Bac scientifique. Année préparatoire APESA → ingénieur agronome. Site : www.enameknes.ac.ma. Dates à confirmer."
   },
   {
