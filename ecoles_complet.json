@@ -115,7 +115,7 @@
     "nom": "UM6P — FGSES (Économie, Sciences Politiques & Relations Internationales)",
     "cat": "Sciences Po",
     "villes": [
-      "Benguerir"
+      "Rabat"
     ],
     "ouv": null,
     "clo": "2026-03-15",
@@ -793,7 +793,10 @@
     "nom": "INBA — Institut National des Beaux-Arts",
     "cat": "Art & Design",
     "villes": [
-      "Tétouan","Agadir","Rabat","Oujda"
+      "Tétouan",
+      "Agadir",
+      "Rabat",
+      "Oujda"
     ],
     "ouv": "2026-06-12",
     "clo": "2026-07-14",
