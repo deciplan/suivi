@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deciplan — Administration</title>
+<style>
+:root{
+  --n:#1a1a5e;--g:#9a7c2e;--gl:#c8a84b;
+  --bg:#eef0f5;--card:#fff;--card2:#f8fafc;
+  --bord:#e5e7eb;--bord2:#f1f5f9;
+  --txt:#1a1a2e;--muted:#6b7280;--light:#9ca3af;
+  --acc:#6366f1;--acc-l:#eef2ff;
+  --green:#059669;--yel:#d97706;--red:#dc2626;
+  --sh-sm:0 1px 4px rgba(0,0,0,.05);--sh-md:0 4px 20px rgba(0,0,0,.09);
+}
+[data-theme="dark"]{
+  --bg:#0f1117;--card:#1a1d27;--card2:#1e2130;
+  --bord:#2d3148;--bord2:#252840;
+  --txt:#e2e8f0;--muted:#94a3b8;--light:#64748b;--acc-l:#1e1f4a;
+  --sh-sm:0 1px 4px rgba(0,0,0,.4);--sh-md:0 4px 20px rgba(0,0,0,.5);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--txt);font-size:14px;min-height:100vh;}
+a{text-decoration:none;color:var(--acc);}
+button{font-family:inherit;cursor:pointer;border:none;border-radius:8px;font-size:13px;font-weight:600;padding:8px 16px;transition:opacity .15s,background .15s;}
+button:hover{opacity:.88;}
+input,select,textarea{width:100%;padding:8px 11px;border:1px solid var(--bord);border-radius:8px;font-size:13px;background:var(--card2);color:var(--txt);font-family:inherit;}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--g);}
+textarea{resize:vertical;}
+.btn-p{background:var(--n);color:#fff;}
+.btn-g{background:var(--g);color:#fff;}
+.btn-d{background:var(--red);color:#fff;}
+.btn-s{background:var(--card2);color:var(--txt);border:1px solid var(--bord);}
+.btn-green{background:var(--green);color:#fff;}
+.lbl{display:block;font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px;}
+.fld{margin-bottom:12px;}
+
+/* ══ LOGIN ══ */
+.login-screen{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;}
+.login-card{background:var(--card);border:1px solid var(--bord);border-top:4px solid var(--g);border-radius:18px;padding:34px 30px;max-width:380px;width:100%;text-align:center;box-shadow:var(--sh-md);}
+.login-logo{height:60px;margin-bottom:16px;}
+.login-title{font-size:20px;font-weight:900;color:var(--n);margin-bottom:5px;}
+[data-theme="dark"] .login-title{color:var(--gl);}
+.login-sub{font-size:12px;color:var(--muted);margin-bottom:22px;}
+.login-error{color:var(--red);font-size:12px;font-weight:600;margin-top:10px;min-height:16px;}
+
+/* ══ HEADER ══ */
+.hdr{background:linear-gradient(135deg,var(--n) 0%,#12124a 100%);border-bottom:3px solid var(--g);position:sticky;top:0;z-index:50;}
+.hdr-inner{max-width:1300px;margin:0 auto;padding:0 18px;display:flex;align-items:center;gap:14px;}
+.hdr-brand{padding:11px 0;}
+.hdr-title{font-size:17px;font-weight:900;color:#fff;}
+.hdr-sub{font-size:10px;color:#c8b87a;}
+.hdr-tabs{display:flex;margin-left:auto;gap:2px;}
+.tab-btn{height:46px;padding:0 16px;background:transparent;color:rgba(255,255,255,.55);border-radius:0;border-bottom:3px solid transparent;font-weight:500;}
+.tab-btn.active{color:#fff;font-weight:700;background:rgba(255,255,255,.1);border-bottom:3px solid var(--g);}
+.hdr-actions{display:flex;gap:8px;align-items:center;}
+.icon-btn{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:7px 13px;font-size:14px;color:#fff;}
+
+/* ══ LAYOUT ══ */
+.container{max-width:1300px;margin:0 auto;padding:18px;}
+.section{display:none;}
+.section.active{display:block;}
+
+/* ══ STATS ══ */
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px;}
+.stat-card{background:var(--card);border:1px solid var(--bord);border-radius:12px;padding:16px 18px;box-shadow:var(--sh-sm);}
+.stat-val{font-size:30px;font-weight:900;line-height:1;}
+.stat-lbl{font-size:11px;color:var(--muted);margin-top:5px;}
+.panel{background:var(--card);border:1px solid var(--bord);border-radius:12px;padding:16px;box-shadow:var(--sh-sm);margin-bottom:16px;}
+.panel-title{font-size:14px;font-weight:800;color:var(--n);margin-bottom:12px;}
+[data-theme="dark"] .panel-title{color:var(--gl);}
+.soon-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--bord2);}
+.soon-row:last-child{border-bottom:none;}
+.pill{padding:2px 9px;border-radius:20px;font-size:10px;font-weight:700;white-space:nowrap;}
+
+/* ══ SPLIT (liste + form) ══ */
+.split{display:flex;gap:16px;align-items:flex-start;}
+.sidebar{width:330px;flex-shrink:0;background:var(--card);border:1px solid var(--bord);border-radius:12px;overflow:hidden;box-shadow:var(--sh-sm);}
+.sidebar-head{padding:10px;border-bottom:1px solid var(--bord);display:flex;flex-direction:column;gap:8px;}
+.sidebar-list{max-height:64vh;overflow-y:auto;}
+.li{padding:10px 12px;cursor:pointer;border-bottom:1px solid var(--bord2);border-left:3px solid transparent;}
+.li:hover{background:var(--card2);}
+.li.sel{background:var(--acc-l);border-left:3px solid var(--n);}
+.li-name{font-size:13px;font-weight:600;margin-bottom:2px;}
+.li-sub{font-size:10px;color:var(--muted);display:flex;gap:6px;align-items:center;}
+.sidebar-foot{padding:7px 11px;font-size:10px;color:var(--muted);border-top:1px solid var(--bord);}
+.main{flex:1;background:var(--card);border:1px solid var(--bord);border-radius:12px;padding:18px;box-shadow:var(--sh-sm);min-height:400px;}
+.form-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:10px;flex-wrap:wrap;}
+.form-title{font-size:15px;font-weight:800;color:var(--n);}
+[data-theme="dark"] .form-title{color:var(--gl);}
+.row-btns{display:flex;gap:8px;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
+.placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;height:380px;color:var(--light);}
+.placeholder-icon{font-size:42px;opacity:.2;margin-bottom:10px;}
+
+/* ══ CANDIDATURES ══ */
+.cand-table{width:100%;border-collapse:collapse;font-size:12px;}
+.cand-table th{background:var(--card2);padding:7px 8px;text-align:left;font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;border-bottom:2px solid var(--bord);white-space:nowrap;}
+.cand-table td{padding:6px 8px;border-bottom:1px solid var(--bord2);vertical-align:middle;}
+.cand-actions{display:flex;gap:4px;}
+.mini-btn{padding:3px 8px;font-size:11px;border-radius:6px;}
+.sub-form{background:var(--card2);border:1px solid var(--bord);border-radius:10px;padding:14px;margin-top:14px;}
+
+/* ══ EXPORT ══ */
+.export-card{display:flex;align-items:center;gap:14px;background:var(--card2);border:1px solid var(--bord);border-radius:10px;padding:12px 16px;margin-bottom:10px;}
+.export-info{flex:1;}
+.export-name{font-size:14px;font-weight:600;}
+.export-meta{font-size:11px;color:var(--muted);margin-top:2px;}
+.instr{background:var(--card2);border:1px solid var(--bord);border-radius:10px;padding:16px;}
+.instr ol{font-size:12px;color:var(--muted);line-height:2;padding-left:18px;}
+
+/* ══ TOAST ══ */
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--n);color:#fff;padding:11px 22px;border-radius:10px;font-size:13px;font-weight:600;box-shadow:var(--sh-md);z-index:200;opacity:0;pointer-events:none;transition:opacity .2s;}
+.toast.show{opacity:1;}
+.toast.err{background:var(--red);}
+
+.statut-badge{display:inline-flex;align-items:center;font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap;}
+.import-zone{border:2px dashed var(--bord);border-radius:10px;padding:18px;text-align:center;font-size:12px;color:var(--muted);margin-top:10px;}
+
+@media(max-width:900px){
+  .split{flex-direction:column;}
+  .sidebar{width:100%;}
+  .stat-grid{grid-template-columns:repeat(2,1fr);}
+  .g3,.g4{grid-template-columns:1fr 1fr;}
+  .hdr-tabs{overflow-x:auto;}
+}
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login-screen" class="login-screen">
+  <div class="login-card">
+    <div style="font-size:40px;margin-bottom:8px;">⚙️</div>
+    <div class="login-title">Deciplan Admin</div>
+    <div class="login-sub">Espace de gestion réservé</div>
+    <div class="fld" style="text-align:left;">
+      <label class="lbl">Mot de passe administrateur</label>
+      <input type="password" id="admin-pwd" placeholder="••••••••" autocomplete="current-password">
+    </div>
+    <button class="btn-p" style="width:100%;padding:11px;" id="admin-login-btn">Se connecter</button>
+    <div class="login-error" id="admin-login-error"></div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="admin-app" style="display:none;">
+  <div class="hdr">
+    <div class="hdr-inner">
+      <div class="hdr-brand">
+        <div class="hdr-title">⚙️ Deciplan Admin</div>
+        <div class="hdr-sub">Gestion des inscriptions Post-Bac</div>
+      </div>
+      <div class="hdr-tabs">
+        <button class="tab-btn active" data-tab="dashboard">📊 Tableau</button>
+        <button class="tab-btn" data-tab="ecoles">🏫 Écoles</button>
+        <button class="tab-btn" data-tab="etudiants">👩‍🎓 Étudiants</button>
+        <button class="tab-btn" data-tab="export">📥 Exporter</button>
+      </div>
+      <div class="hdr-actions">
+        <button class="icon-btn" id="darkToggle">🌙</button>
+        <button class="icon-btn" id="admin-logout">🚪</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- DASHBOARD -->
+    <div id="sec-dashboard" class="section active">
+      <div class="stat-grid">
+        <div class="stat-card" style="border-top:3px solid var(--n);"><div class="stat-val" id="st-ecoles" style="color:var(--n);">0</div><div class="stat-lbl">Écoles suivies</div></div>
+        <div class="stat-card" style="border-top:3px solid var(--green);"><div class="stat-val" id="st-open" style="color:var(--green);">0</div><div class="stat-lbl">Inscriptions ouvertes</div></div>
+        <div class="stat-card" style="border-top:3px solid var(--g);"><div class="stat-val" id="st-etus" style="color:var(--g);">0</div><div class="stat-lbl">Étudiants suivis</div></div>
+        <div class="stat-card" style="border-top:3px solid var(--acc);"><div class="stat-val" id="st-cands" style="color:var(--acc);">0</div><div class="stat-lbl">Total candidatures</div></div>
+      </div>
+      <div class="panel">
+        <div class="panel-title">⚠️ Clôtures dans les 30 prochains jours</div>
+        <div id="soon-list"></div>
+      </div>
+    </div>
+
+    <!-- ÉCOLES -->
+    <div id="sec-ecoles" class="section">
+      <div class="split">
+        <div class="sidebar">
+          <div class="sidebar-head">
+            <input id="ecole-search" placeholder="🔍 Rechercher une école..." oninput="renderEcoleList()">
+            <div style="display:flex;gap:6px;">
+              <select id="cat-filter" onchange="renderEcoleList()" style="flex:1;"></select>
+              <button class="btn-p" onclick="newEcole()">+ Ajouter</button>
+            </div>
+          </div>
+          <div class="sidebar-list" id="ecole-list"></div>
+          <div class="sidebar-foot" id="ecole-count"></div>
+        </div>
+        <div class="main" id="ecole-form">
+          <div class="placeholder"><div class="placeholder-icon">🏫</div><div>Sélectionnez une école ou cliquez "+ Ajouter"</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ÉTUDIANTS -->
+    <div id="sec-etudiants" class="section">
+      <div class="split">
+        <div class="sidebar" style="width:200px;">
+          <div class="sidebar-head">
+            <button class="btn-p" style="width:100%;" onclick="newEtudiant()">+ Nouvel étudiant</button>
+          </div>
+          <div class="sidebar-list" id="etu-list"></div>
+        </div>
+        <div class="main" id="etu-detail" style="padding:0;">
+          <div class="placeholder"><div class="placeholder-icon">👩‍🎓</div><div>Sélectionnez un étudiant</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPORT -->
+    <div id="sec-export" class="section">
+      <div style="max-width:680px;">
+        <div class="panel">
+          <div class="panel-title">1 — Tableau général des écoles (repo suivi)</div>
+          <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Uploadez ce fichier à la racine du repo <strong>suivi</strong>.</p>
+          <button class="btn-p" onclick="exportEcoles()">⬇️ Télécharger ecoles_complet.json</button>
+        </div>
+        <div class="panel">
+          <div class="panel-title">2 — Suivi des étudiants (repo etudiants)</div>
+          <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Uploadez ce fichier dans le dossier <strong>etudiants/</strong>. Il contient TOUS les étudiants.</p>
+          <button class="btn-g" onclick="exportEtudiants()">⬇️ Télécharger etudiants.json</button>
+        </div>
+        <div class="panel">
+          <div class="panel-title">💾 Sauvegarde / Restauration</div>
+          <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Importez un fichier JSON existant pour le modifier, ou sauvegardez tout votre travail.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <button class="btn-s" onclick="document.getElementById('import-ecoles').click()">📂 Importer ecoles_complet.json</button>
+            <button class="btn-s" onclick="document.getElementById('import-etus').click()">📂 Importer etudiants.json</button>
+            <input type="file" id="import-ecoles" accept=".json" style="display:none;" onchange="importEcoles(event)">
+            <input type="file" id="import-etus" accept=".json" style="display:none;" onchange="importEtus(event)">
+          </div>
+        </div>
+        <div class="instr">
+          <div style="font-size:13px;font-weight:700;margin-bottom:8px;">📋 Comment mettre à jour le site</div>
+          <ol>
+            <li>Remplissez/modifiez les données dans les onglets Écoles et Étudiants</li>
+            <li>Téléchargez le fichier JSON correspondant</li>
+            <li>Allez sur github.com/deciplan → repo concerné</li>
+            <li>Remplacez le fichier (Edit → coller → Commit) ou Upload</li>
+            <li>Le site se met à jour en 1-2 minutes ✅</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="admin.js"></script>
+</body>
+</html>
