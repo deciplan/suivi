@@ -629,12 +629,12 @@
       "Agadir",
       "Oujda"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.concoursena.ma",
-    "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
+    "ouv": 2026-06-16,
+    "clo": 2026-07-13,
+    "lien": "https://concoursena.ma",
+    "modalite": "Sélection + concours écrit",
+    "concours": "2026-07-26",
+    "avis": avis/ENA.pdf,
     "note": "Bac scientifique/technique, mention exigée généralement. 6 ans → diplôme d'architecte. Dates à confirmer."
   },
   {
