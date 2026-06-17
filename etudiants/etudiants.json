@@ -488,7 +488,7 @@
         "note_conseiller": null,
         "portail_id": "Q9GD-H8M4",
         "portail_mdp": "",
-        "recu_lien": "reçu/reçu_ISCAE_ZAHRA.pdf"
+        "recu_lien": "recu/recu_iscae_zahra.pdf"
       },
       {
         "ecole": "CPGE - Classes préparatoires aux grandes écoles",
@@ -507,7 +507,7 @@
         "note_conseiller": null,
         "portail_id": "",
         "portail_mdp": "",
-        "recu_lien": "reçu/reçu_CPGE_ZAHRA.pdf"
+        "recu_lien": "recu/recu_cpge_zahra.pdf"
       },
       {
         "ecole": "ISIC - Institut supérieur d'information et de communication",
@@ -526,7 +526,7 @@
         "note_conseiller": null,
         "portail_id": "",
         "portail_mdp": "",
-        "recu_lien": "reçu/reçu_ISIC_ZAHRA.pdf"
+        "recu_lien": "recu/recu_isic_zahra.pdf"
       }
     ]
   }
