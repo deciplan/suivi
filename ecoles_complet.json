@@ -963,12 +963,26 @@
     "villes": [
       "Plusieurs villes"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://e-bts.men.gov.ma",
-    "modalite": "Sélection sur dossier",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac toutes séries selon spécialité. 2 ans post-bac en lycées publics : informatique, électrotechnique, comptabilité, tourisme, audiovisuel… Dates à confirmer."
+    "ouv": "2026-06-19",
+    "clo": "2026-07-15",
+    "lien": "https://massarservice.men.gov.ma/moutamadris/Account",
+    "modalite": "Sélection sur moyenne générale du Bac",
+    "concours": null,
+    "avis": "avis/BTS.pdf",
+    "note": "Bac toutes séries selon spécialité. 2 ans post-bac en lycées publics. Conculter l'avis pour plus de détails."
+  },
+  {
+    "nom": "DINAU — Institut National d'Aménagement et d'Urbanisme",
+    "cat": "Urbanisme et aménagement du territoire",
+    "villes": [
+      "Rabat"
+    ],
+    "ouv": "2026-06-17",
+    "clo": "2026-07-17",
+    "lien": "https://inau.ac.ma/inau_concours/html/index_etud.php",
+    "modalite": "Sélection concours écrit + oral",
+    "concours": "06-21-22 Septembre 2026",
+    "avis": "avis/INAU.pdf",
+    "note": "100 dh frais d'inscription.consulter l'avis du concours pour plus de détails."
   }
 ]
