@@ -556,7 +556,7 @@
     "date_inscription": "2026-04-15",
     "date_concours": null,
     "date_resultats": null,
-    "statut": "Inscrit",
+    "statut": "inscrit",
     "liste_principale": null,
     "attente_1": null,
     "attente_2": null,
