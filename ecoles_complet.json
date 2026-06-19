@@ -160,16 +160,18 @@
       "Séttat",
       "El Jadida",
       "Béni Mellal",
+      "EL HAJEB",
       "Meknès",
+      "Al Hoceima",
       "Dakhla"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-06-19",
+    "clo": "2026-0710",
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + écrit (TAFEM)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Toutes séries bac. 75% national + 25% régional. Test TAFEM. 11 villes. Dates à confirmer."
+    "concours": "20 Juillet 2026",
+    "avis": "avis/ENCG.pdf",
+    "note": "75% national + 25% régional. Test TAFEM. 13 villes. Dates à confirmer."
   },
   {
     "nom": "ENSA — Écoles Nationales des Sciences Appliquées",
@@ -187,16 +189,15 @@
       "Berrechid",
       "Oujda",
       "Fès",
-      "Kénitra",
-      "Laâyoune"
+      "Kénitra"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-06-19",
+    "clo": "2026-07-10",
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + écrit (CNC)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac Maths/PC/Tech. 75% national + 25% régional. Accès S3 via CNC. 14 villes. Dates à confirmer."
+    "concours": "22 Juillet 2026",
+    "avis": "avis/ENSA.pdf",
+    "note": "Bac Maths/PC/Tech. 75% national + 25% régional. 13 villes. Consulter l'avis du concours pour plus de détails."
   },
   {
     "nom": "ENSAM — Écoles Nationales Supérieures des Arts et Métiers",
@@ -206,13 +207,13 @@
       "Casablanca",
       "Rabat"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-06-19",
+    "clo": "2026-07-10",
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + écrit (CNC)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac Maths/PC/Tech. Génie mécanique, électrique, industriel, IA. 3 villes. Dates à confirmer."
+    "concours": "24 Juillet 2026",
+    "avis": "avis/ENSAM.pdf",
+    "note": "Bac Maths/PC/Tech.3 villes.Consulter l'avis du concours pour plus du détails"
   },
   {
     "nom": "EST — Écoles Supérieures de Technologie",
