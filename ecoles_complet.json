@@ -131,6 +131,7 @@
     "villes": [
       "Rabat",
       "Casablanca",
+      "Settat",
       "Fès",
       "Marrakech",
       "Oujda",
@@ -138,13 +139,13 @@
       "Agadir",
       "Béni Mellal"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-06-19",
+    "clo": "2026-07-10",
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + écrit (Bio, PC, Chimie, Maths)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac Maths/SVT/PC. 75% national + 25% régional. Concours commun. Dates à confirmer."
+    "concours": "18 Juillet 2026",
+    "avis": "avis/FMD.pdf",
+    "note": "Importnat: Le concours est basé sur le cadre référentiel des examens nationaux en Sciences expérimentales"
   },
   {
     "nom": "ENCG — Écoles Nationales de Commerce et Gestion",
@@ -812,13 +813,13 @@
     "villes": [
       "Rabat"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://isadac.ma/concours",
+    "ouv": "2026-06-15",
+    "clo": "2026-07-15",
+    "lien": "https://isadac.com/login",
     "modalite": "Sélection + concours (épreuve pratique)",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac toutes séries. Théâtre, animation culturelle, scénographie. Dates à confirmer."
+    "concours": "Du 18 au 26 Juillet 2026",
+    "avis": "avis/ISADAC.pdf",
+    "note": "Bac toutes séries. Théâtre, animation culturelle, scénographie."
   },
   {
     "nom": "AAT — Académie des Arts Traditionnels",
