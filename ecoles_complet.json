@@ -1263,7 +1263,7 @@
     ],
     "ouv": null,
     "clo": null,
-    "lien": "https://fpa-concours.agriculture.gov.ma",
+    "lien": "https://concours.agriculture-fpa.ma",
     "modalite": "Sélection sur dossier",
     "concours": "En attente",
     "avis": null,
@@ -1366,13 +1366,13 @@
     "villes": [
       "Berkane"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://scolarite-eniadb.ump.ma/online_students",
-    "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Université Mohammed Premier. Ingénieur en IA et digital. Dates à confirmer.",
+    "ouv": "2026-06-23",
+    "clo": "2026-07-11",
+    "lien": "https://students.ump.ma/preinscription/ump/ENIADB",
+    "modalite": "concours écrit",
+    "concours": "27 Juillet 2026",
+    "avis": "avis/ENIAD.pdf",
+    "note": null,
     "filieres": [
       {
         "code": "SM",
