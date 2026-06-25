@@ -1338,13 +1338,13 @@
     "villes": [
       "Kénitra"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://ensc.uit.ac.ma/preinscription",
+    "ouv": "2026-06-25",
+    "clo": "2026-07-12",
+    "lien": "https://ensck.uit.ac.ma/preinscription/",
     "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Université Ibn Tofail. Cycle ingénieur en chimie et génie des procédés. Dates à confirmer.",
+    "concours": "25 Juillet 2026",
+    "avis": "avis/ENSCK.pdf",
+    "note": "Université Ibn Tofail.Confirmation en ligne de participation au concours pour les présélectionnés :Du 14/07/2026 au 21/07/2026 à 23h59min ",
     "filieres": [
       {
         "code": "SM",
