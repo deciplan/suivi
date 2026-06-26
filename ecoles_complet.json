@@ -1872,45 +1872,33 @@
     ]
   },
   {
-    "nom": "ITSA / ITA — Instituts Techniques Agricoles (Technicien Spécialisé & Technicien)",
-    "cat": "Formation Professionnelle",
-    "villes": [
-      "Plusieurs villes"
-    ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://concours.agriculture-fpa.ma",
-    "modalite": "Sélection sur dossier",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Formation professionnelle agricole (Ministère de l'Agriculture) : horticulture, machinisme, polyculture, topographie… Dates à confirmer.",
-    "filieres": [
-      {
-        "code": "SM",
-        "label": "SMA/SMB"
-      },
-      {
-        "code": "SE",
-        "label": "PC/SVT/AGRO"
-      },
-      {
-        "code": "STM",
-        "label": "STE/STM"
-      },
-      {
-        "code": "ECO",
-        "label": "ECO/GES"
-      },
-      {
-        "code": "LSH",
-        "label": "LSH"
-      },
-      {
-        "code": "ART",
-        "label": "ART"
-      }
-    ]
-  },
+  "nom": "ITSA / ITA — Instituts Techniques Agricoles (Technicien Spécialisé & Technicien)",
+  "cat": "Formation Professionnelle",
+  "villes": [
+    "Plusieurs villes"
+  ],
+  "ouv": null,
+  "clo": "2026-07-17",
+  "lien": "https://concours.agriculture-fpa.ma",
+  "modalite": "Sélection sur dossier",
+  "concours": "Juillet 2026",
+  "avis": null,
+  "note": "⚠️ Délais de clôture DIFFÉRENTS selon la ville (du 17/07 au 26/07) — la date de clotûre affichée est la plus proche ⚠️ .",
+  "filieres": [
+    {
+      "code": "SM",
+      "label": "SMA/SMB"
+    },
+    {
+      "code": "SE",
+      "label": "PC/SVT/AGRO"
+    },
+    {
+      "code": "STM",
+      "label": "STE/STM"
+    }
+  ]
+}
   {
     "nom": "OFPPT — Qualification (Niveau 3ème)",
     "cat": "Formation Professionnelle",
@@ -1936,18 +1924,6 @@
       {
         "code": "STM",
         "label": "STE/STM"
-      },
-      {
-        "code": "ECO",
-        "label": "ECO/GES"
-      },
-      {
-        "code": "LSH",
-        "label": "LSH"
-      },
-      {
-        "code": "ART",
-        "label": "ART"
       }
     ]
   },
