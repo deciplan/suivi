@@ -120,6 +120,46 @@
     ]
   },
   {
+  "nom": "DHH — Dar Al Hadith Al Hassania (مؤسسة دار الحديث الحسنية)",
+  "cat": "Études Islamiques",
+  "villes": [
+    "Rabat"
+  ],
+  "ouv": null,
+  "clo": "2026-07-09",
+  "lien": "https://edhh.ma",
+  "modalite": "Sélection sur dossier + concours (oral + écrit)",
+  "concours": "13-15-16 Juillet 2026",
+  "avis": null,
+  "note": "Université Al Quaraouiyine. Cycle de formation fondamentale spécialisée (8 semestres dont 2 préparatoires) → Licence en sciences de la religion. Conditions : être hâfiz (mémorisation complète du Coran), Bac (ou Bac enseignement originel/équivalent) de l'année en cours ou précédente, moyenne ≥ 12/20, et ≥ 12/20 en arabe, français et anglais ou espagnol. 40 places. Oral (mémorisation du Coran) le 13/07 ; écrit les 15-16/07 (culture islamique, arabe, français, anglais/espagnol). Dossier papier à déposer ou envoyer par courrier (BP 6549 Al Irfane, Rabat). Résultats sélection : 11/07. Détails sur edhh.ma.",
+  "filieres": [
+    {
+      "code": "SM",
+      "label": "SMA/SMB"
+    },
+    {
+      "code": "SE",
+      "label": "PC/SVT/AGRO"
+    },
+    {
+      "code": "STM",
+      "label": "STE/STM"
+    },
+    {
+      "code": "ECO",
+      "label": "ECO/GES"
+    },
+    {
+      "code": "LSH",
+      "label": "LSH"
+    },
+    {
+      "code": "ART",
+      "label": "ART"
+    }
+  ]
+},
+  {
     "nom": "ENA — Écoles Nationales d'Architecture",
     "cat": "Architecture",
     "villes": [
@@ -1138,7 +1178,7 @@
     "clo": "2026-06-30",
     "lien": "https://iftl.ma",
     "modalite": "Sélection sur dossier + concours",
-    "concours": "Après résultats Bac",
+    "concours": null,
     "avis": null,
     "note": "Formation pro(TS, T, Q). Frais dossier : 150 DH. 8 000 DH/an.",
     "filieres": [
