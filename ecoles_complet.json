@@ -1354,13 +1354,13 @@
     "villes": [
       "Kénitra"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://ims.uit.ac.ma/pre_inscrip",
-    "modalite": "Sélection + épreuves physiques",
-    "concours": "En attente",
+    "ouv": "2026-06-22",
+    "clo": "2026-07-17",
+    "lien": "https://imsk.uit.ac.ma/2026-2027/",
+    "modalite": "Sélection + écrit + oral",
+    "concours": "28 Juillet 2026",
     "avis": null,
-    "note": "Université Ibn Tofail. Métiers du sport : management, encadrement, entraînement. Dates à confirmer.",
+    "note": null,
     "filieres": [
       {
         "code": "SM",
@@ -1369,6 +1369,10 @@
       {
         "code": "SE",
         "label": "PC/SVT/AGRO"
+      },
+      {
+        "code": "ECO",
+        "label": "ECO/GES"
       }
     ]
   },
@@ -1379,7 +1383,7 @@
       "Agadir"
     ],
     "ouv": "2026-06-29",
-    "clo": "2026-06-17",
+    "clo": "2026-07-17",
     "lien": "https://ims.uit.ac.ma/pre_inscrip",
     "modalite": "Sélection + écrit + oral",
     "concours": "28 Juillet 2026",
