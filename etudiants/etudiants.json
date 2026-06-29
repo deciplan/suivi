@@ -679,6 +679,25 @@
     "portail_id": "R140136616",
     "portail_mdp": "j3A#l/Vj4j4#",
     "recu_lien": "recu/FMD_ZAHRA.pdf"
+  },
+  {
+    "ecole": "ENSC-École nationale supérieure",
+    "groupe": "ENSA",
+    "ville": "Plusieurs villes",
+    "lien": "https://www.cursussup.gov.ma/login",
+    "num_dossier": null,
+    "date_inscription": "2026-06-23",
+    "date_concours": "25 Juillet 2026",
+    "date_resultats": "25 Juillet 2026",
+    "statut": "inscrit",
+    "liste_principale": null,
+    "attente_1": null,
+    "attente_2": null,
+    "attente_3": null,
+    "note_conseiller": null,
+    "portail_id": "null,
+    "portail_mdp": "null,
+    "recu_lien": "recu/ENSC_ZAHRA.pdf"
   }
     ]
   }
