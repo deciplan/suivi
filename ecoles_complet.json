@@ -523,6 +523,34 @@
       }
     ]
   },
+    {
+    "nom": "ENSIASB — École Nationale Supérieure d'inductrie alimentaire et biotechnologies (Ait Melloul)",
+    "cat": "Ingénierie",
+    "villes": [
+      "Ait Melloul"
+    ],
+    "ouv": "2026-06-29",
+    "clo": "2026-07-17",
+    "lien": "https://preinscription.uiz.ac.ma",
+    "modalite": "Sélection + écrit",
+    "concours": "27 Juillet 2026",
+    "avis": "avis/ENSIASB.jpge",
+    "note": null,
+    "filieres": [
+      {
+        "code": "SM",
+        "label": "SMA/SMB"
+      },
+      {
+        "code": "SE",
+        "label": "PC/SVT/AGRO"
+      },
+      {
+        "code": "STM",
+        "label": "STE/STM"
+      }
+    ]
+  },
   {
     "nom": "ENSIASD — École Nationale Supérieure de l'IA et Sciences des Données (Taroudant)",
     "cat": "Ingénierie",
