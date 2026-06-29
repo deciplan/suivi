@@ -695,8 +695,8 @@
     "attente_2": null,
     "attente_3": null,
     "note_conseiller": null,
-    "portail_id": "null,
-    "portail_mdp": "null,
+    "portail_id": null,
+    "portail_mdp": null,
     "recu_lien": "recu/ENSCK_ZAHRA.pdf"
   }
     ]
