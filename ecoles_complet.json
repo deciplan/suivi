@@ -1373,6 +1373,34 @@
     ]
   },
   {
+    "nom": "IMS — Institut des Métiers du Sport (Agadir)",
+    "cat": "Sport",
+    "villes": [
+      "Agadir"
+    ],
+    "ouv": "2026-06-29",
+    "clo": "2026-06-17",
+    "lien": "https://ims.uit.ac.ma/pre_inscrip",
+    "modalite": "Sélection + écrit + oral",
+    "concours": "28 Juillet 2026",
+    "avis": "avis/IMS_AGADIR.pdf",
+    "note": null,
+    "filieres": [
+      {
+        "code": "SM",
+        "label": "SMA/SMB"
+      },
+      {
+        "code": "SE",
+        "label": "PC/SVT/AGRO"
+      },
+      {
+        "code": "ECO",
+        "label": "ECO/GES"
+      }
+    ]
+  },
+  {
     "nom": "INAS — Institut National de l'Action Sociale",
     "cat": "Social",
     "villes": [
