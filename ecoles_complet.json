@@ -1816,13 +1816,13 @@
       "Oujda",
       "Autres villes (annexes)"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-07-06",
+    "clo": "2026-07-13",
     "lien": "http://ispits.sante.gov.ma",
-    "modalite": "Sélection + écrit",
+    "modalite": "Sélection + écrit + oral",
     "concours": "En attente",
     "avis": null,
-    "note": "Bac SVT/PC/Maths. Infirmier, sage-femme, techniques de santé, rééducation. Licence (LMD). Dates à confirmer.",
+    "note": "Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
