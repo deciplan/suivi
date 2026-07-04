@@ -700,7 +700,7 @@
     "recu_lien": "recu/ENSCK_ZAHRA.pdf"
   },
   {
-    "ecole": "ENA-École nationale d'architecture= RABAT",
+    "ecole": "ENA-École nationale d'architecture - RABAT",
     "groupe": "ENA",
     "ville": "Rabat",
     "lien": "https://www.concoursena.ma/marocain/login",
@@ -717,6 +717,25 @@
     "portail_id": "R140136616",
     "portail_mdp": "zAhrA@2008",
     "recu_lien": "recu/ENA_ZAHRA.pdf"
+  },
+  {
+    "ecole": "INAU-Institut national d'aménagement et d'urbanisme",
+    "groupe": "INAU",
+    "ville": "Rabat",
+    "lien": "https://inau.ac.ma/inau_concours/html/inau_auth-register.php",
+    "num_dossier": null,
+    "date_inscription": "2026-07-02",
+    "date_concours": "06-22-22 Septembre 2026",
+    "date_resultats": null,
+    "statut": "inscrit",
+    "liste_principale": null,
+    "attente_1": null,
+    "attente_2": null,
+    "attente_3": null,
+    "note_conseiller": null,
+    "portail_id": "R140136616",
+    "portail_mdp": "BK768026",
+    "recu_lien": null
   }
     ]
   }
