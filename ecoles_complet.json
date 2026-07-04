@@ -1406,13 +1406,13 @@
     "villes": [
       "Tanger"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-07-0",
+    "clo": "2026-07-27",
     "lien": "https://inastanger.ma",
     "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac toutes séries. Travail social, accompagnement des publics vulnérables. Dates à confirmer.",
+    "concours": "01 Septembre 2026",
+    "avis": "avis/INAS.pdf,
+    "note": "Bac toutes séries.31 Juillet 2026: Annonce des listes des sélectionnés pour passer l'examen écrit.04 Septembre 2026: affichage des résultats de l'examen écrit. 08 Septembre 2026: examen oral.Consulter l'avis du concours pour plus de détails",
     "filieres": [
       {
         "code": "SM",
