@@ -1668,6 +1668,25 @@
     ]
   },
   {
+  "nom": "INNIA — Institut National du Numérique et d'Intelligence Artificielle (Settat)",
+  "cat": "Ingénierie",
+  "villes": ["Settat"],
+  "ouv": '2026-07-06",
+  "clo": "2026-07-20",
+  "lien": "https://ent.uh1.ac.ma/edu/apply/classes-preparatoires-innia-81",
+  "modalite": "Sélection + concours",
+  "concours": "25 Juillet 2026",
+  "avis": "avis/INNIA.pdf",
+  "note": "RÉSULTATS DE PRÉSÉLECTION: 22 Juillet 2026. AFFICHAGE DES RÉSULTATS: 28 JUILLET 2026.INSCRIPTIONS: 30 & 31 Juillet 2026",
+  "abrev": "INNIA",
+  "concours_dates": ["2026-07-25"],
+  "filieres": [
+    {"code": "SM", "label": "SMA/SMB"},
+    {"code": "SE", "label": "PC/SVT/AGRO"},
+    {"code": "STM", "label": "STE/STM"}
+  ]
+},
+  {
     "nom": "INSAP — Institut National des Sciences de l'Archéologie et du Patrimoine",
     "cat": "Patrimoine & Archéologie",
     "villes": [
