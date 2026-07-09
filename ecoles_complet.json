@@ -2086,13 +2086,13 @@
     "villes": [
       "Settat"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.isss.uh1.ac.ma",
+    "ouv": "2026-07-08",
+    "clo": "2026-07-26",
+    "lien": "https://preinscription.uh1.ac.ma/preinscription/ISSS.html",
     "modalite": "Sélection + concours",
     "concours": "En attente",
-    "avis": null,
-    "note": "Université Hassan 1er. Licences en sciences de la santé, instrumentation et maintenance biomédicale. Dates à confirmer.",
+    "avis": "avis/ISSS.pdf",
+    "note": "Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
