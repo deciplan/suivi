@@ -2041,7 +2041,7 @@
     "lien": "http://ispits.sante.gov.ma",
     "modalite": "Sélection + écrit + oral",
     "concours": "En attente",
-    "avis": null,
+    "avis": "avis/ISPITS.pdf",
     "note": "Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
