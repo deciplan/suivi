@@ -2041,12 +2041,12 @@
     "villes": [
       "Rabat"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.ismac.ac.ma",
+    "ouv": "2026-07-14",
+    "clo": "2026-07-18",
+    "lien": "https://ismac-inscriptions.com/fr/auth/signin",
     "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
+    "concours": "21-25 Juillet 2026",
+    "avis": "avis/ISMAC.pdf",
     "note": "Bac toutes séries. Réalisation, image, son, montage, production. Dates à confirmer.",
     "filieres": [
       {
