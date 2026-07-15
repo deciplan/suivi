@@ -2075,7 +2075,10 @@
       }
     ],
     "abrev": "ISMAC",
-    "concours_dates": ["2026-07-12","2026-07-25"]
+    "concours_dates": [
+      "2026-07-12",
+      "2026-07-25"
+    ]
   },
   {
     "nom": "ISPITS — Instituts Supérieurs des Professions Infirmières et Techniques de Santé",
