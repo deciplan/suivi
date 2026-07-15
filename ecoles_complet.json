@@ -1183,6 +1183,59 @@
     ]
   },
   {
+    "nom": "IFMBP — Institut de Formation aux Métiers de la Boulangerie et de la Pâtisserie : Technicien Spécialisé",
+    "abrev": "IFMBP",
+    "cat": "Formation Professionnelle",
+    "villes": ["Casablanca (Sidi Bernoussi)"],
+    "ouv": "2026-07-01",
+    "clo": "2026-09-30",
+    "lien": "https://www.ifmbp.ma",
+    "modalite": "Sélection sur dossier + concours",
+    "concours": "2026-10-13",
+    "concours_dates": "Écrit : 13/10/2026 · Oral : 19-20/10/2026 · Résultats : 30/10/2026",
+    "avis": "avis/IFMBP.pdf",
+    "note": "Spécialité : Gestion de boulangerie et de pâtisserie. Âge max 30 ans. Listes des convoqués : 06/10/2026. Rentrée : 04/01/2027.",
+    "filieres": [
+      { "code": "SM", "label": "SMA/SMB" },
+      { "code": "SE", "label": "PC/SVT/AGRO" },
+      { "code": "ECO", "label": "ECO/GES" }
+    ]
+  },
+  {
+    "nom": "IFMBP — Institut de Formation aux Métiers de la Boulangerie et de la Pâtisserie : Technicien",
+    "abrev": "IFMBP",
+    "cat": "Formation Professionnelle",
+    "villes": ["Casablanca (Sidi Bernoussi)"],
+    "ouv": "2026-07-01",
+    "clo": "2026-09-30",
+    "lien": "https://www.ifmbp.ma",
+    "modalite": "Sélection sur dossier + concours",
+    "concours": "2026-10-15",
+    "concours_dates": "Écrit : 15/10/2026 · Oral : 21-22/10/2026 · Résultats : 30/10/2026",
+    "avis": "avis/IFMBP.pdf",
+    "note": "Niveau Bac. Spécialités : Boulanger-Viennoisier, Pâtissier, Chocolatier, Glacier-Confiseur. Âge max 30 ans. Rentrée : 04/01/2027.",
+    "filieres": [
+      { "code": "SM", "label": "SMA/SMB" },
+      { "code": "SE", "label": "PC/SVT/AGRO" },
+      { "code": "ECO", "label": "ECO/GES" }
+    ]
+  },
+  {
+    "nom": "IFMBP — Institut de Formation aux Métiers de la Boulangerie et de la Pâtisserie : Qualification Professionnelle",
+    "abrev": "IFMBP",
+    "cat": "Formation Professionnelle",
+    "villes": ["Casablanca (Sidi Bernoussi)"],
+    "ouv": "2026-07-01",
+    "clo": "2026-09-30",
+    "lien": "https://www.ifmbp.ma",
+    "modalite": "Sélection sur dossier + concours",
+    "concours": "2026-10-20",
+    "concours_dates": "Écrit : 20/10/2026 · Oral : 26-27/10/2026 · Résultats : 30/10/2026",
+    "avis": "avis/IFMBP.pdf,
+    "note": "Niveau 3ème collège. Spécialités : Aide-boulanger, Aide-pâtissier. Âge : 15 à 30 ans. Admission sur note de l'oral et de l'écrit. Rentrée : 04/01/2027.",
+    "filieres": []
+  },
+  {
     "nom": "IFMBTP Fès — Technicien Spécialisé (Bâtiment & Travaux Publics)",
     "cat": "Formation Professionnelle",
     "villes": [
