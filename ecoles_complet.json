@@ -2183,7 +2183,10 @@
       }
     ],
     "abrev": "ISPITS",
-    "concours_dates": []
+    "concours_dates": [
+      "2026-07-25",
+      "2026-07-26"
+    ]
   },
   {
     "nom": "ISPM — Institut Supérieur des Pêches Maritimes",
@@ -2191,13 +2194,13 @@
     "villes": [
       "Agadir"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-07-17",
+    "clo": "2026-08-17",
     "lien": "https://www.ispm.ac.ma",
     "modalite": "Sélection + écrit",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac scientifique/technique, moyenne ≥ 13/20, âge ≤ 21 ans. Licence pro : pêche, mécanique navale, aquaculture, valorisation. Internat (180 places). Dates à confirmer.",
+    "concours": "06 Septembre 2026",
+    "avis": "ISPM.pdf",
+    "note": "Bac scientifique/technique, moyenne ≥ 12/20, âge ≤ 21 ans. Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
@@ -2213,7 +2216,9 @@
       }
     ],
     "abrev": "ISPM",
-    "concours_dates": []
+    "concours_dates": [
+      "2026-09-06"
+    ]
   },
   {
     "nom": "I3S — Institut Supérieur des Sciences de la Santé (Settat)",
