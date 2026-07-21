@@ -1537,6 +1537,26 @@
     "concours_dates": []
   },
   {
+    "nom": "IFTSEAU — Instituts de Formation des Techniciens Spécialisés en Urbanisme, Architecture, Bâtiment et Génie Civil",
+    "abrev": "IFTSEAU",
+    "cat": "Architecture",
+    "villes": ["Meknès", "Oujda", "Tétouan", "Smara"],
+    "ouv": "2026-08-31",
+    "clo": "2026-09-06",
+    "lien": "https://iftsau.matnuhpv.gov.ma",
+    "modalite": "Sélection + écrit",
+    "concours": "13 Septembre 2026",
+    "concours_dates": ["2026-09-13|écrit", "2026-09-21|résultats"],
+    "avis": "IFTSEAU.pdf",
+    "note": "120 places (30 par institut : Meknès, Oujda, Tétouan, Smara). Âge 17-25 ans (30 pour titulaires d'un diplôme de technicien). Bac ≥ 12/20. Épreuve écrite (QCM Maths + Physique-Chimie + Langues/Traduction).Consulter l'avis du concours pour plus de détails.",
+    "filieres": [
+      { "code": "SE", "label": "PC/SVT/AGRO" },
+      { "code": "SM", "label": "SMA/SMB" },
+      { "code": "ECO", "label": "ECO/GES" },
+      { "code": "STM", "label": "STE/STM" }
+    ]
+  },
+  {
     "nom": "IMM — Institut des Mines de Marrakech",
     "cat": "Formation Professionnelle",
     "villes": [
