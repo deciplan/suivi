@@ -835,13 +835,13 @@
       "Nador",
       "Guelmim"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-07-31",
+    "clo": "2026-08-23",
     "lien": "https://www.cursussup.gov.ma",
-    "modalite": "Sélection sur dossier bac",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac scientifique ou équivalent. DUT 2 ans. 16 villes. Dates à confirmer.",
+    "modalite": "Sélection",
+    "concours": null,
+    "avis": "avis/EST.pdf",
+    "note": "Bac scientifique ou équivalent.la sélection se fait sur la base: 25%réginal+75%national. DUT 2 ans. 16 villes. Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
@@ -1088,13 +1088,13 @@
       "Errachidia",
       "Al Hoceima"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": null,
-    "modalite": "Sélection sur dossier",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac scientifique/technique. Accès régulé : MIP, BCG, GE-GM → licence ST puis cycle ingénieur/master. Candidature via le site de chaque FST. Dates à confirmer.",
+    "ouv": "2026-07-31",
+    "clo": "2026-08-23",
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection",
+    "concours": null,
+    "avis": "avis/FST.pdf",
+    "note": "Bac scientifique/technique.la sélection se fait sur la base: 25% régional+ 75% national. Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
