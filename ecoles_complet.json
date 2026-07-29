@@ -390,7 +390,7 @@
     "ouv": "2026-07-29",
     "clo": "2026-08-23",
     "lien": "https://www.cursussup.gov.ma",
-    "modalite": "Sélection + concours",
+    "modalite": "Sélection + Oral",
     "concours": "03-04-05-07-08-09 Septembre 2026",
     "avis": "LICENCE_EDUCATION.pdf",
     "note": "Licence en éducation. Bac toutes séries selon filière, âge limité (~21 ans). Consulter l'avis du concours pour plus de détails.",
@@ -791,7 +791,7 @@
     "modalite": "Sélection + Oral",
     "concours": "03-04-05-07-08-09 Septembre 2026",
     "avis": "LICENCE_EDUCATION.pdf",
-    "note": "Licences en éducation. Consulter l'avis du concours pour plus de détails.",
+    "note": "Licences en éducation. âge limité (~21 ans). Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
@@ -1053,13 +1053,13 @@
     "villes": [
       "Rabat"
     ],
-    "ouv": null,
-    "clo": null,
-    "lien": "https://www.fse.ac.ma",
-    "modalite": "Sélection sur dossier",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Université Mohammed V. Licence en éducation, psychologie, sciences de l'éducation. Dates à confirmer.",
+    "ouv": "2026-07-29",
+    "clo": "2026-08-23",
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection + Oral",
+    "concours": "03-03-05-07-08-09 Septembre 2026",
+    "avis": "LICENCE_EDUCATION.pdf",
+    "note": "Licence en éducation. âge limité (~21 ans). Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
@@ -1087,7 +1087,14 @@
       }
     ],
     "abrev": "FSE",
-    "concours_dates": []
+    "concours_dates": [
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-09"
+    ]
   },
   {
     "nom": "FST — Facultés des Sciences et Techniques",
