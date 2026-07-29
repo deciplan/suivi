@@ -387,13 +387,13 @@
       "Fès",
       "Marrakech"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-07-29",
+    "clo": "2026-08-23",
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Licence en éducation + masters d'enseignement. Bac toutes séries selon filière, âge limité (~21 ans). Dates à confirmer.",
+    "concours": "03-04-05-07-08-09 Septembre 2026",
+    "avis": "LICENCE_EDUCATION.pdf",
+    "note": "Licence en éducation. Bac toutes séries selon filière, âge limité (~21 ans). Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
@@ -421,7 +421,14 @@
       }
     ],
     "abrev": "ENS",
-    "concours_dates": []
+    "concours_dates": [
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-09"
+    ]
   },
   {
     "nom": "ENSA — Écoles Nationales des Sciences Appliquées",
@@ -778,13 +785,13 @@
       "Béni Mellal",
       "Oujda"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-07-29",
+    "clo": "2026-08-23",
     "lien": "https://www.cursussup.gov.ma",
-    "modalite": "Sélection sur dossier",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Licences en éducation (futurs enseignants). Chaque ESEF a son site de candidature. Dates à confirmer.",
+    "modalite": "Sélection + Oral",
+    "concours": "03-04-05-07-08-09 Septembre 2026",
+    "avis": "LICENCE_EDUCATION.pdf",
+    "note": "Licences en éducation. Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
@@ -812,7 +819,14 @@
       }
     ],
     "abrev": "ESEF",
-    "concours_dates": []
+    "concours_dates": [
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-09"
+    ]
   },
   {
     "nom": "EST — Écoles Supérieures de Technologie",
