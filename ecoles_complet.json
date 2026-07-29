@@ -392,7 +392,7 @@
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + Oral",
     "concours": "03-04-05-07-08-09 Septembre 2026",
-    "avis": "LICENCE_EDUCATION.pdf",
+    "avis": "avis/LICENCE_EDUCATION.pdf",
     "note": "Licence en éducation. Bac toutes séries selon filière, âge limité (~21 ans). Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
@@ -480,13 +480,13 @@
     "villes": [
       "Casablanca"
     ],
-    "ouv": null,
-    "clo": null,
+    "ouv": "2026-07-31",
+    "clo": "2026-08-23",
     "lien": "https://www.cursussup.gov.ma",
-    "modalite": "Sélection + concours",
-    "concours": "En attente",
-    "avis": null,
-    "note": "Bac toutes séries. Design, arts visuels, médias numériques. Dates à confirmer.",
+    "modalite": "Sélection",
+    "concours": null,
+    "avis": "avis/ENSAD.pdf",
+    "note": "Bac toutes séries. la sélection se fait en se basant sur : (25% régional + 75% national)*le coefficient de pondération. Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
         "code": "SM",
@@ -790,7 +790,7 @@
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + Oral",
     "concours": "03-04-05-07-08-09 Septembre 2026",
-    "avis": "LICENCE_EDUCATION.pdf",
+    "avis": "avis/LICENCE_EDUCATION.pdf",
     "note": "Licences en éducation. âge limité (~21 ans). Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
@@ -1058,7 +1058,7 @@
     "lien": "https://www.cursussup.gov.ma",
     "modalite": "Sélection + Oral",
     "concours": "03-03-05-07-08-09 Septembre 2026",
-    "avis": "LICENCE_EDUCATION.pdf",
+    "avis": "avis/LICENCE_EDUCATION.pdf",
     "note": "Licence en éducation. âge limité (~21 ans). Consulter l'avis du concours pour plus de détails.",
     "filieres": [
       {
