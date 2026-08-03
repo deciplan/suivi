@@ -2323,7 +2323,7 @@
     "concours": "Sélection sur dossier",
     "concours_dates": [],
     "avis": "avis/ISTP.pdf",
-    "note": "Session octobre 2026. Deux filières : ▪ Génie Civil (Marrakech, Oujda, Fès, Agadir) — bacs Sc. Maths, Sc. Physiques, SVT, Sc. & Techno ou bac pro BTP. ▪ Gestion Logistique et Transport (Oujda uniquement) — bacs Sc. Maths, Sc. Physiques, SVT, Sc. Éco/Gestion ou bac pro (Logistique, Comptabilité, Commerce). Âge ≤ 23 ans. Choisir un seul institut et une seule filière. Contact : concours.istp@mtpnet.gov.ma.",
+    "note": "Deux filières : ▪ Génie Civil (Marrakech, Oujda, Fès, Agadir). ▪ Gestion Logistique et Transport (Oujda uniquement). Âge ≤ 23 ans. Choisir un seul institut et une seule filière. Consulter la'vis du concours pour plus de détails.",
     "filieres": [
       { "code": "SM", "label": "SMA/SMB" },
       { "code": "SE", "label": "PC/SVT/AGRO" },
